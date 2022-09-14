@@ -5,7 +5,7 @@ import torch
 import h5py
 from torch.utils.data import DataLoader, Dataset
 
-data_path = r'/mnt/data2/Sh/ShData/MM'
+data_path = r''
 
 def regreto7class(a):
     # [-3,3] => 7-class

@@ -5,9 +5,9 @@ As shown in the figures, in this paper, we
 * propose a modality-invariant temporal representation learning strategy to refine unified sentimental information from multiple modalities. We treat each timestamp as a Gaussian distribution for relevant modality features and introduce KL divergence of multivariate to constrain their temporal distribution-level similarity. 
 ![Figure1](./Figures/figure1.png)
 * design a Transformer-based parallel structure to effectively learn the comprehensive sentimental information. The parallel structure can uniformly perform inter-modality interactions.
-![Figure1](./Figures/figure3.png)
-* propose a gated inter-modality attention mechanism to adaptively perform inter-modality interactions and filter inconsistent subsequences between modalities. 
 ![Figure1](./Figures/figure2.png)
+* propose a gated inter-modality attention mechanism to adaptively perform inter-modality interactions and filter inconsistent subsequences between modalities. 
+![Figure1](./Figures/figure3.png)
 
 
 To run the codes, define the data_paths in Dataset/UnifiedDataset.py, then run:

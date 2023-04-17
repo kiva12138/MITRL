@@ -12,7 +12,6 @@ from torch.utils.tensorboard import SummaryWriter
 from Dataset.UnifiedDataset import UnifiedDataset
 from ModelSimilarity import ModelSimilarity
 from Utils import FocalLoss, make_weights_for_balanced_classes, SMLossAVT
-from SAM import SAM
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0, 1"
 

@@ -224,6 +224,8 @@ def make_weights_for_balanced_classes(labels, nclasses=7):
     weight_per_class = [0.] * nclasses
     N = float(sum(count))  # total number of images
     for i in range(nclasses):
+        if count[i] == 0:
+            continue
         weight_per_class[i] = N / float(count[i])
     weight = [0] * len(labels)
     for idx, val in enumerate(labels):
